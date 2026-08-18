@@ -10,6 +10,9 @@ doctoral dissertation by Sudipta Singh formalizing the protocol.
 brief technical summary, and a full screenshot-driven walkthrough of every feature, with a
 references appendix. This README covers how to run it and how it's built.
 
+See it in action at https://www.sudiptasingh.com/IdenTT/public/index.html
+
+
 ## What it does
 
 - **No single point of failure.** Instead of one password or one device, a threshold of your own
