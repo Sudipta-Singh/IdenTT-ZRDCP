@@ -1,0 +1,22 @@
+{
+  "name": "identt",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "IdenTT - a local identity/recovery app implementing the Zero-Knowledge Runtime-Generated Dynamic Challenge Protocol (ZRDCP)",
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "build": "esbuild src/app/main.js --bundle --outfile=dist/app.bundle.js --format=iife --target=es2022",
+    "build:watch": "npm run build -- --watch"
+  },
+  "dependencies": {
+    "@noble/curves": "^2.3.0",
+    "@noble/hashes": "^2.3.0"
+  },
+  "devDependencies": {
+    "esbuild": "^0.28.2",
+    "playwright": "^1.62.1",
+    "vitest": "^4.1.10"
+  }
+}

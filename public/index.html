@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>IdenTT — trusted device registry</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div id="app"></div>
+  <!-- Plain (non-module) script, built from src/app/main.js via esbuild. Bundling into a single
+       IIFE is what lets this page work when opened directly as a file:// URL — browsers block
+       ES module imports (type="module") from file:// due to CORS, but a plain bundled script has
+       no such restriction. Rebuild with `npm run build` after changing anything under src/. -->
+  <script src="../dist/app.bundle.js"></script>
+</body>
+</html>

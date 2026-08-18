@@ -1,0 +1,17 @@
+{
+  "name": "identt-server",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Local backend for IdenTT — holds SMTP/Twilio credentials server-side and exposes /send-email and /send-sms so the browser app can dispatch real challenges instead of only simulated ones. See README.md before running this anywhere but your own machine.",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "nodemailer": "^9.0.5",
+    "twilio": "^5.3.0"
+  }
+}
